@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
-    <link href="css/about_us.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <link href="css/about_us.css" rel="stylesheet">
 </head>
+
 <body>
-   <!--put all content into wrapper for adaptive layout-->
-   <div class="wrapper">
+  <!--put all content into wrapper for adaptive layout-->
+  <div class="wrapper">
     <!--put all content into heading wrapper for adaptive layout-->
     <header class="header">
       <img src="images/logo.png" alt="logo pic">
-         <!--create navigation list-->
-         <nav>
-           <ul>
-             <li><a href="index.html">Home</a></li>
-             <li><a href="about.html">About us</a></li>
-             <li><a href="contact.html">Contact</a></li>
-           </ul>
-         </nav>
+      <!--create navigation list-->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <!--create main content-->
-   <main class="main">
-    <section class="about_us">  
+    <main class="main">
+      <section class="about_us">
         <h1>About us</h1>
         <h2>Jia You - Founder of Yummy ice cream</h2>
+        <picture>
+          <source srcset="images/Jia-720_x_480.jpeg, 
+          images/Jia-1000_x_666.jpeg 2x,
+          images/Jia-1200_x_1200.jpeg 3x" media="(min-width: 1200px)" />
+
+          <source srcset="images/Jia-320_x_320.jpeg,
+                images/Jia-480_x_320.jpeg 2x,
+                images/Jia-640_x_640.jpeg 3x" media="(min-width: 800px)" />
           <img src="images/Jia.jpeg" alt="jia">
-          <p>This is Jia from Shanghai, China. During my leisure time, I love to play badminton with my friends, and I have the interest to learn French by myself. My goal for language is to be an advanced French language user during my study at Algonquin College. In the meantime, I am very enjoying cooking and I hope that I could also squeeze sometime to learn how to cook western food and bakery. </p> <br>
+        </picture>
+        <p>This is Jia from Shanghai, China. During my leisure time, I love to
+          play badminton with my friends, and I have the interest to learn
+          French by myself. My goal for language is to be an advanced French
+          language user during my study at Algonquin College. In the meantime, I
+          am very enjoying cooking and I hope that I could also squeeze sometime
+          to learn how to cook western food and bakery. </p> <br>
 
-         <h2>Kathy Yang - Co-Founder of Yummy ice cream</h2> 
+        <h2>Kathy Yang - Co-Founder of Yummy ice cream</h2>
+        <picture>
+          <source srcset="images/Kathy-720_x_960.jpeg, 
+         images/Kathy-1000_x_1333.jpeg 2x,
+         images/Kathy-1200_x_1200.jpeg 3x" media="(min-width: 1200px)" />
+
+          <source srcset="images/Kathy-320_x_320.jpeg,
+               images/Kathy-480_x_640.jpeg 2x,
+               images/Kathy-640_x_640.jpeg 3x" media="(min-width: 800px)" />
           <img src="images/Kathy.jpeg" alt="kathy">
-          <p>Kathy is a primary school student. She is 10 years old.During her leisure time, she likes to eat different kinds of ice creams. She is also an ice cream creative maker.</p>
-    </section> 
-   </main>
+        </picture>
+        <p>Kathy is a primary school student. She is 10 years old.During her
+          leisure time, she likes to eat different kinds of ice creams. She is
+          also an ice cream creative maker.</p>
+      </section>
+    </main>
 
-   <!--create footer-->
-   <footer>
-    <div class="footer"> 
-      <p>&reg;2022 Yummy Ice Cream</p>
-      <p>Shop hours:</p>
-      <p>Mon - Fri: 9:00 - 18:00 </p>
-      <p>Address:</p>
-      <p>88 Hinton Ave,
-         Ottawa, ON</p>
-      <p>Follow us:</p>
-      <img src="images/facebook.png" alt="facebook">
-      <img src="images/tiktok.png" alt="tiktok">
-    </div>  
-  </footer>  
-</div>
+    <!--create footer-->
+    <footer>
+      <div class="footer">
+        <p>&reg;2022 Yummy Ice Cream</p>
+        <p>Shop hours:</p>
+        <p>Mon - Fri: 9:00 - 18:00 </p>
+        <p>Address:</p>
+        <p>88 Hinton Ave,
+          Ottawa, ON</p>
+        <p>Follow us:</p>
+        <img src="images/facebook.png" alt="facebook">
+        <img src="images/tiktok.png" alt="tiktok">
+      </div>
+    </footer>
+  </div>
 </body>
+
 </html>

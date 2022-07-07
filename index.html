@@ -14,12 +14,12 @@
       <header class="header">
         <img class="logo" src="images/logo.png" alt="logo pic">
            <!--create navigation list-->
-           <nav class="navlist">
-             <ul class="nav-list">
+           <nav>
+            <ul>
                <li><a href="index.html">Home</a></li>
                <li><a href="about.html">About us</a></li>
                <li><a href="contact.html">Contact</a></li>
-             </ul>
+             </ul> 
            </nav>
       </header>  
 
@@ -32,10 +32,20 @@
     
       <section class="popular-mood">  
         <h2>Popular mood</h2>
-        <img src="images/item1.png" alt="mango-ice-cream">
-        <img src="images/item2.png" alt="raspberry ice cream">
-           <button class="mango">Mango ice cream</button>
-           <button class="resberry">Raspberry ice cream</button>
+        <div class="flex-container">
+          <picture class="mango-pic">    
+            <source srcset="
+            images/1-640_x_640.jpeg"
+            media="(min-width: 1200px)"/>
+
+           <source srcset=" 
+           images/1-320_x_320.jpeg"
+            media="(min-width: 800px)"/>
+          
+          <img src="images/1-320_x_320.jpeg" alt="mango-ice-cream">
+          </picture>
+          <button class="mango">Mango ice cream</button>
+        </div>
       </section>
   </main>
    

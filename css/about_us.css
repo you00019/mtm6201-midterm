@@ -79,11 +79,12 @@ margin:0 auto;
 
 /* set up logo size and format */
 header > img {
-    max-width: 450px;
-    max-height: 450px;
-    margin-left: 400px;
+    max-width: 700px;
+    max-height: 700px;
     margin-bottom: 10px;
-    }
+    padding-left:300px;
+}
+
 /* set up nav bar */
 ul li{
     display:inline;
@@ -92,18 +93,18 @@ ul li{
 }
 
 ul li:nth-child(1){
-    padding-left: -20px;
+    padding-left: 10px;
     margin:80px;
 }
 
 ul li:nth-child(2){
-    padding-left: 80px;
-    margin:100px;
+    padding-left: 10px;
+    margin:80px;
 }
 
 ul li:nth-child(3){
-    padding-left: 125px;
-    margin:100px;
+    padding-left: 80x;
+    margin:80px;
 }
 
 /* set up animation for nav */
@@ -141,6 +142,12 @@ nav a:active{
     padding-bottom: 20px;
 }
 
+.brand-story{
+    background-color:var(--third-color);
+    padding-bottom: 2px;
+    padding-top:20px;
+}
+
 /* set up h1 format */
 h1{
     font-size: 100px;
@@ -174,7 +181,9 @@ h1:after {
   }
 
 img[src="images/Jia.jpeg"]{
-    max-width: 1200px;
+    display:flex;
+    justify-content: center;
+    max-width: 700px;
     margin:0 auto;
     margin-bottom: 20px;
     margin-top:20px;
@@ -195,10 +204,13 @@ h2{
 }
 
 img[src="images/Kathy.jpeg"]{
-    max-width: 1200px;
+    display:flex;
+    justify-content: center;
+    max-width: 700px;
     margin:0 auto;
     margin-bottom: 20px;
     margin-top:20px;
+    padding: -100px;
 }
 
 .main{
@@ -266,3 +278,81 @@ img[src="images/tiktok.png"]{
     margin-top:-6px;
 }
 
+/* media quiry: all elements go into a single column so I will use flex */
+@media screen and (min-width: 1200px){            
+nav ul{
+display: flex;
+background-color: white;
+margin:10px;
+padding:-10px;
+display:flex;
+flex-direction:column;
+}
+    
+/* nav size format adjustment */
+nav a,
+nav a:link,
+nav a:visited {
+border-style:solid;
+border-width:0.3px;
+}
+    
+/* header adjustment */
+header{
+padding-bottom: 500px;
+margin-bottom: -100px;
+}
+    
+ul li{
+font-weight: bold;
+font-size: 28px;
+}
+    
+ul li:nth-child(1){
+padding-left: 10px;
+margin:80px;
+margin-top:15px;
+padding-left: -20px;
+margin-left:15px;
+}
+    
+ul li:nth-child(2){
+padding-left: 10px;
+margin:80px;
+padding-top: 10px;
+margin-top:-60px;
+margin-left:15px;
+}
+    
+ul li:nth-child(3){
+padding-left: 10px;
+margin:80px;
+padding-top: 15px;
+margin-top:-60px;
+margin-left:15px;
+}
+    
+/* logo adjustment */
+header > img {
+padding-left:0px;
+}
+
+img[src="images/Jia.jpeg"]{
+    max-width: 1200px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top:20px;
+    padding: -100px;
+}
+
+img[src="images/Kathy.jpeg"]{
+    max-width: 1200px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+
+
+
+}
