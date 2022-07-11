@@ -143,6 +143,7 @@ padding: 40px;
 padding-bottom: 20px;
 }
 
+/* set up h1 style */
 h1{
 font-size: 100px;
 font-weight: bold;
@@ -152,6 +153,7 @@ justify-content: center;
 margin-bottom:-50px;
 }
 
+/* set up h2 style */
 h2{
 font-size: 50px;
 font-weight: bold;
@@ -163,7 +165,7 @@ padding-top: 50px;
 padding-bottom: 20px;
 }
 
-
+/* set up form style */
 form{
 padding-bottom: 10px;
 padding-left: 15px;
@@ -192,15 +194,18 @@ margin-bottom: 15px;
 margin-top: 15px;
 }
 
+/* set up map style */
 iframe{
 width:100%;
 height: 400px;
 margin-bottom: 40px;
 }
 
+/* set up main page background */
 .main{
   background-color: var(--third-color);
 }
+
 /* set up footer style */
 .footer{
 background-color: var(--fourth-color);
@@ -260,9 +265,7 @@ margin-top:-6px;
 }
 
 /* media quiry: all elements go into a single column so I will use flex */
-@media screen and (min-width: 1200px){      
-
-  
+@media screen and (min-width: 1200px){        
 nav ul{
 display: flex;
 background-color: white;
@@ -371,7 +374,7 @@ padding-bottom: 50px;
 .contact-us{
 padding-left:20px;
 }
-
+}
 
 
 

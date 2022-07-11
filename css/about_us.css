@@ -180,6 +180,7 @@ h1:after {
     padding-left:50px;
   }
 
+/* set up image style */
 img[src="images/Jia.jpeg"]{
     display:flex;
     justify-content: center;
@@ -190,6 +191,7 @@ img[src="images/Jia.jpeg"]{
     padding: -100px;
 }
 
+/* set up h2 style */
 h2{
     color:var(--primary-color); 
     margin-top: 30px;
@@ -203,6 +205,7 @@ h2{
     padding-right:20px;
 }
 
+/* set up image format */
 img[src="images/Kathy.jpeg"]{
     display:flex;
     justify-content: center;
@@ -213,6 +216,7 @@ img[src="images/Kathy.jpeg"]{
     padding: -100px;
 }
 
+/* set up main page style */
 .main{
     background-color: var(--third-color);
     padding-top: 30px;
@@ -337,6 +341,7 @@ header > img {
 padding-left:0px;
 }
 
+/* image adjustments */
 img[src="images/Jia.jpeg"]{
     max-width: 1200px;
     margin:0 auto;
@@ -351,8 +356,4 @@ img[src="images/Kathy.jpeg"]{
     margin-bottom: 20px;
     margin-top:20px;
 }
-
-
-
-
 }
